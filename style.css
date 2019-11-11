@@ -1,0 +1,126 @@
+
+body{
+  width: 1280px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  font-family: 'Hind Madurai', sans-serif;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+  .hero-image {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./crowds/audience-backlit-band-154147.jpg');
+    height:500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .hero-text {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 45px;
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 200px;
+    transform: translate(-33%, -50%);
+    color: white;
+  
+}
+  
+  
+  #introImg{
+    width:auto;
+    height: 250px;
+    float: right;
+  
+  }
+
+  .clearfix {
+    overflow: auto;
+  }
+
+  #imgFexsize{
+width:auto;
+height:250px;
+  }
+  
+ .gallary{
+    display: flex;
+    margin:30px;
+    flex-direction:row;
+    padding:5px; 
+  }
+
+.gallary>div
+  {
+    flex:1 1 auto;
+    
+    text-align:center;
+  
+    margin:5px;  
+  }
+
+  footer {
+    color:white;
+    background: black;
+}
+  #socialmedia{
+    width:auto;
+    height: 100px;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+h1, h2{
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-family: 12px;
+  padding-left: 50px;
+    width: 750px;
+}
+form {
+  padding-top: 45px;
+  padding-left: 128px;
+}
+
+input[type="email"] {
+  border-radius: 12px;
+}
+input[type="submit"] {
+  background-color: red;
+  border-radius: 10px;
+  color: aliceblue;
+}
